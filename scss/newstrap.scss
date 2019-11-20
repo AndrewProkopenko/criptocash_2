@@ -1,0 +1,35 @@
+
+.table-hover-main {
+    tbody tr {
+     &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;
+
+$theme-colors: ( 
+    
+    "primary": #FF7E00, 
+    "aside-blue": #505C85, 
+    "aside-green": #1AE882,
+    "dark": rgba(25, 29, 42, 0.5),
+    "header-menu": #F0F0F0,
+    "header-bg": rgba(19, 23, 33, 0.81),
+    "exchange": #505c854d,
+    "white": #fff,
+    "game-text":#2C3247,
+    "main-menu": #13161F,
+    "game-text__no-active":rgba(255, 126, 0, 0.5),
+    "black": #000,
+    "black-table": #010101,
+    "table-color": #CCCCCC,
+
+);
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+

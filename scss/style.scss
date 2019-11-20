@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700|Ubuntu:400,500,700&display=swap&subset=cyrillic');
+@import "header";
+@import "main";
+@import "sidebar";
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-width: 1300px !important; // с помощью этого свойства решил проблему того что элементы вылазили из body
+   
+    width: 100% !important;
+    height: 100%;
+    font-family: 'Cuprum', sans-serif !important;
+    background:#0E1015 url(../img/BG.png);
+    background-color: #0E1015 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-size: 16px !important;
+}

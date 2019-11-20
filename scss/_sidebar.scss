@@ -1,0 +1,118 @@
+
+.sound-aside { 
+    
+    font-size: 13px !important;
+    width: 100%;
+    height: 48px;
+    position: relative;
+    a { width: 100%; height: 100%; }
+    &::after { 
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: rgba(255, 126, 0, 0.5);
+        position: absolute;
+        bottom: -1px;
+        
+    }
+    &::before { 
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: rgba(255, 126, 0, 0.5);
+        position: absolute;
+        bottom: -4px;
+        
+    }
+}
+.game-first { font-size: 13px; }
+.games-first-item {
+    
+    width: 100%;
+    height: 82px;
+    
+        .coin {
+            display: inline-block;
+            width: 12px !important;
+            height: 12px !important;
+            background-image: url(../img/Group.svg);
+        }
+    
+}
+
+.coin-orange {
+    display: inline-block;
+    width: 12px !important;
+    height: 12px !important;
+    background-image: url(../img/coin-vs.svg);
+}
+.games-first-item-nth {
+    width: 100%;
+    height: 96px;
+}
+
+
+.games-second { 
+    width: 100%;
+    height: 227px;
+    position: relative;
+    font-size: 13px;
+    
+   &::after { 
+       content: "";
+       width: 100%;
+       height: 1px;
+       background: #1AE882 ;
+       position: absolute;
+       top: 0;
+   }
+   &::before { 
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #1AE882 ;
+    position: absolute;
+    top: 3px;
+}
+.games-second-item { 
+    height: 33%;
+}
+}
+
+
+.games-third { 
+    
+    width: 100%;
+    height: 300px;
+    position: relative;
+    font-size: 13px;
+    
+   &::after { 
+       content: "";
+       width: 100%;
+       height: 1px;
+       background: #505C85;
+       position: absolute;
+       top: 0;
+   }
+   &::before { 
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #505C85 ;
+    position: absolute;
+    top: 3px;
+}
+.games-third-item { 
+    height: 25%;
+}
+}
+
+
+.tranform-up { 
+    transform: translateY(-10px);
+}
+
+.bg-gradient-active-games { 
+    background: linear-gradient(180deg, #FF7E00 0%, #C65300 100%);
+}

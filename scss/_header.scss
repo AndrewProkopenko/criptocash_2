@@ -1,0 +1,45 @@
+.arrow-up {
+    &::after {
+        content: " ";
+        width: 8px;
+        height: 12px;
+        display: inline-block;
+        background-image: url(../img/VectorUp.svg);
+    }
+}
+
+.arrow-down {
+    &::after {
+        content: " ";
+        width: 8px;
+        height: 12px;
+        display: inline-block;
+        background-image: url(../img/VectorDown.svg);
+    }
+}
+
+.exchange-items { 
+    font-size: 0.75rem !important;
+    line-height: 1.5rem;
+    // background: #505c854d;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    &:last-child { 
+        border-radius: 0 50px 50px 0;
+    }
+
+}
+.exchange-items-main { 
+    background:linear-gradient(0deg, #505C85, #505C85), #424B69;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    z-index: 777;
+    line-height: 2rem;
+}
+.exchange-cont  { 
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
